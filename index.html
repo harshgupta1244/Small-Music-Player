@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - The World Of Music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="Imgs\logo.png" alt="Spotify">
+                Spotify</li>
+            <li>Home</li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="myFunction()">Artist</button>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="#">Karma</a>
+                        <a href="#">Krsna</a>
+                        <a href="#">Raftaar</a>
+                    </div>
+                </div>
+            </li>
+            <!-- <input type="text" placeholder="Search Song"> -->
+        </ul>
+    </nav>
+    <div class="container1">
+        <div class="item1">
+            <ul>
+                <li class="history"> <img src="Imgs\HistoryWhite.png"> Recently played</li>
+                <li class="playing"> <img src="Imgs\Music.gif" alt=""> Now playing</li>
+            </ul>
+        </div>
+        <div class="item2">
+            <div class="songItemContainer">
+                <h1>Best of Kr$na-Raftaar-Karma</h1>
+                <div class="songList2">
+                    <div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <h1 class="songName">Kahan Tak </h1>
+                            <span class="songListPlay"><span class="timeStamp">03:33 <i id="0"
+                                        class="fas songItemPlay fa-2x fa-play-circle"></i></span>
+                            </span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <h1 class="songName">Kahan Tak </h1>
+                            <span class="songListPlay"><span class="timeStamp">03:33 <i id="1"
+                                        class="fas songItemPlay fa-2x fa-play-circle"></i></span>
+                            </span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <h1 class="songName">Kahan Tak </h1>
+                            <span class="songListPlay"><span class="timeStamp">03:33 <i id="2"
+                                        class="fas songItemPlay fa-2x fa-play-circle"></i></span>
+                            </span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <h1 class="songName">Kahan Tak </h1>
+                            <span class="songListPlay"><span class="timeStamp">03:33 <i id="3"
+                                        class="fas songItemPlay fa-2x fa-play-circle"></i></span>
+                            </span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <h1 class="songName">Kahan Tak </h1>
+                            <span class="songListPlay"><span class="timeStamp">03:33 <i id="4"
+                                        class="fas songItemPlay fa-2x fa-play-circle"></i></span>
+                            </span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <h1 class="songName">Kahan Tak </h1>
+                            <span class="songListPlay"><span class="timeStamp">03:33 <i id="5"
+                                        class="fas songItemPlay fa-2x fa-play-circle"></i></span>
+                            </span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <h1 class="songName">Kahan Tak </h1>
+                            <span class="songListPlay"><span class="timeStamp">03:33 <i id="6"
+                                        class="fas songItemPlay fa-2x fa-play-circle"></i></span>
+                            </span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <h1 class="songName">Kahan Tak </h1>
+                            <span class="songListPlay"><span class="timeStamp">03:33 <i id="7"
+                                        class="fas songItemPlay fa-2x fa-play-circle"></i></span>
+                            </span>
+                        </div>
+                        <div class="songItem">
+                            <img alt="1">
+                            <h1 class="songName">Kahan Tak </h1>
+                            <span class="songListPlay"><span class="timeStamp">03:33 <i id="8"
+                                        class="fas songItemPlay fa-2x fa-play-circle"></i></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-2x fa-step-backward" id="previous"></i>
+            <i class="fas fa-2x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-2x fa-step-forward" id="next"></i>
+
+        </div>
+        <div class="songInfo">
+            <img src="Imgs\playing.gif" width="100px" alt="p1" id="gif"> <span id="masterSongName">Kahan Tak</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/03fca18877.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
